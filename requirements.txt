@@ -156,3 +156,4 @@ flask-Mail==0.9.1
 flask-SQLAlchemy==2.1
 flask-WTF==0.12
 gunicorn
+jsonify
