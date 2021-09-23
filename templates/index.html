@@ -9,7 +9,7 @@
 
 <body>
 
-    <div style="color:blue">
+    <div style="color:rgb(25, 93, 114)">
         <form action="{{ url_for('predict')}}" method="post">
             <h2>Predictive analysis</h2>
             <h3>Year</h3>
@@ -20,7 +20,7 @@
             <h3>What Is the Fuel type?</h3><br><select name="Fuel_Type_Petrol" id="fuel" required="required">
                 <option value="Petrol">Petrol</option>
                 <option value="Diesel">Diesel</option>
-                <option value="Diesel">CNG</option>
+                <option value="CNG">CNG</option>
             </select>
             <h3>Are you A Dealer or Individual</h3><br><select name="Seller_Type_Individual" id="resea" required="required">
                 <option value="Dealer">Dealer</option>
@@ -40,7 +40,9 @@
 
 
 
-        <br><br><h3>{{ prediction_text }}<h3>
+        <br><br>
+        <h3>{{ prediction_text }}
+            <h3>
     </div>
 
 
@@ -48,7 +50,7 @@
 
     <style>
         body {
-            background-color: lightslategray;
+            background-color: rgb(105, 160, 206);
             text-align: center;
             padding: 0px;
         }
@@ -66,7 +68,7 @@
             border-style: solid;
             font-family: cursive;
             text-align: center;
-            background-color: rgb(168, 131, 61);
+            background-color: rgb(179, 175, 167);
             font-size: medium;
             position: absolute;
             width: 700px;
@@ -87,7 +89,7 @@
         }
         
         #fuel:hover {
-            background-color: coral;
+            background-color: rgb(182, 233, 240);
         }
         
         #research {
@@ -99,7 +101,7 @@
         }
         
         #research:hover {
-            background-color: coral;
+            background-color: rgb(182, 233, 240);
         }
         
         #resea {
@@ -111,7 +113,7 @@
         }
         
         #resea:hover {
-            background-color: coral;
+            background-color: rgb(182, 233, 240);
         }
         
         #sub {
@@ -119,11 +121,11 @@
             height: 43px;
             text-align: center;
             border-radius: 14px;
-            font-size: 18px;
+            font-size: 13px;
         }
         
         #sub:hover {
-            background-color: darkcyan;
+            background-color: rgb(136, 146, 146);
         }
         
         #first {
