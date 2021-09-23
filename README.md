@@ -1,3 +1,3 @@
 # carpriceprediction
-Car Price Prediction (ML project with Random Forest Regression and Deployment).
+Car Price Prediction (ML project with Random Forest Regression).
 It's  Kaggle project.
