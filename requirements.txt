@@ -151,4 +151,8 @@ wincertstore==0.2
 wrapt==1.12.1
 yapf==0.31.0
 zipp==3.5.0
+flask==0.10.1
+flask-Mail==0.9.1
+flask-SQLAlchemy==2.1
+flask-WTF==0.12
 gunicorn
